@@ -17,9 +17,9 @@ public class ATM {
         Scanner scanner = new Scanner(System.in);
 
 
-        for (int i=0;i<u.length;i++){
-            if(u[i].getPassword()== password) {
-                success=true;
+        for (User anU : u) {
+            if (anU.getPassword() == password) {
+                success = true;
                 //bla blaa
             }
         }
